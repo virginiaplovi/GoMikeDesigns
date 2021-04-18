@@ -716,6 +716,20 @@ h3 {
     color: #333333!important;
 }
 
+
+blockquote {
+    color: #333!important;
+    font-size: 15px;
+    line-height: 26px;
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+    max-width: 565px;
+    border-left: none;
+    padding: 10px 20px;
+}
+
+
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -1031,6 +1045,12 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
     }
 }
 
