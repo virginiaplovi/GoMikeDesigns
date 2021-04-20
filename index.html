@@ -9,25 +9,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 	<meta name="robots" content="index, follow">
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preload" href="./css/bootstrap.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="./css/bootstrap.css">
+	</noscript>
+	<link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript>
+		<link rel="stylesheet" href="style.css">
+	</noscript>
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
 	<title>GoMikeDesigns | Freelance web designer in Atlanta</title>
-
-
-	<!-- Analytics -->
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YGBFVYZKNM"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-
-		gtag('config', 'G-YGBFVYZKNM');
-	</script>
-	<!-- Analytics END -->
 
 </head>
 
@@ -290,8 +283,7 @@
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a href="https://www.instagram.com/" target="_blank"
-										rel="noreferrer">
+									<a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
 										<i class="fa fa-instagram icon-md"></i>
 										<p class="link-color">Instagram</p>
 									</a>
@@ -313,7 +305,17 @@
 	<script src="./js/bootstrap.js"></script>
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jquery.touchSwipe.js"></script>
-	
+	<!-- Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-YGBFVYZKNM"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-YGBFVYZKNM');
+	</script>
+	<!-- Analytics END -->
 </body>
 
 </html>
