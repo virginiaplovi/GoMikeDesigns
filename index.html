@@ -21,7 +21,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
 
-	<title>GoMikeDesigns | Freelance web designer in Atlanta</title>
+	<title>GoMike Designs | Freelance web designer in Atlanta</title>
 
 </head>
 
@@ -30,27 +30,28 @@
 	<main class="page-container">
 
 		<!-- bloc-0 -->
-		<header class="bloc bgc-white l-bloc " id="bloc-0">
+		<header class="bloc bgc-white l-bloc " id="bloc-0" role="banner">
 			<div class="container bloc-sm">
-				<nav class="navbar row">
+				<nav class="navbar row" role="navigation">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="index.html"><img src="img/atlanta%20web%20design%20logo.png"
-								alt="GoMikeDesigns Logo - Homepage" height="40" width="200" /></a>
+								alt="GoMikeDesigns Logo - Homepage" height="40" width="200"/></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
-							data-toggle="collapse" data-target=".navbar-1">
+							data-toggle="collapse" data-target=".navbar-1" aria-label="toggle navigation"
+							aria-controls="toggleNavbar" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
 								class="icon-bar"></span><span class="icon-bar"></span>
 						</button>
 					</div>
-					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav" id="ToggleNavbar">
 						<ul class="site-navigation nav navbar-nav">
 							<li>
-								<a href="index.html">Home</a>
+								<a class="link-h" href="index.html" aria-current="page"
+									aria-label="Click to go to Home page">Home</a>
 							</li>
 							<li>
-							</li>
-							<li>
-								<a href="contact.html">Contact</a>
+								<a class="link-h" href="contact.html"
+									aria-label="Click to go to Contact page">Contact</a>
 							</li>
 						</ul>
 					</div>
@@ -68,7 +69,7 @@
 						<img src="img/atlanta%20web%20designer%20mike.png" class="center-block image-resize-mode"
 							width="100" height="103" alt="Mike Picture" />
 						<h1 class="text-center hero-bloc-text tc-white ">
-							I'm Mike.
+							I'm Mike and I'm a freelancee web designer in Atlanta
 						</h1>
 						<div class="text-center">
 							<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine"
@@ -139,28 +140,28 @@
 		<!-- bloc-2-services END -->
 
 		<!-- bloc-3-what-i-do -->
-		<div class="bloc tc-white bgc-atomic-tangerine bloc-bg-texture texture-paper b-parallax bg-atlanta-20made-20sign-20orange d-bloc"
+		<article
+			class="bloc tc-white bgc-atomic-tangerine bloc-bg-texture texture-paper b-parallax bg-atlanta-20made-20sign-20orange d-bloc"
 			id="bloc-3-what-i-do">
 			<div class="container bloc-lg">
 				<div class="row tight-width-whitespace black-background">
 					<div class="col-sm-12">
-						<h2 class="mg-md text-center tc-white">
+						<p class="mg-md text-center tc-white t-size">
 							I love Atlanta, my hometown, and want to see all Atlanta businesses succeed. I help by
 							offering web design services that help local businesses stand out and attract new customers
 							online.<br>
-						</h2>
+						</p>
 						<p class="text-center white">
 							I'm super excited you are here. I partner with creative entrepreneurs and local Atlanta
 							business that are either starting or needing to renew their website to attract business.
 							Whether you need a complete brand identity or a redesign of your website, I'll work
 							with you to create something that looks great and structured to be found on
-							Google.<br><br><a class="ltc-white bold-link" href="contact.html">Are you ready, contact
-								me</a><br>
+							Google.
 						</p>
 					</div>
 				</div>
 			</div>
-		</div>
+		</article>
 		<!-- bloc-3-what-i-do END -->
 
 		<!-- bloc-4-portfolio -->
@@ -175,9 +176,10 @@
 				<div class="row tight-width-whitespace portfolio-row">
 					<div class="col-sm-6">
 						<a href="img/11.jpg" data-lightbox="img/11.jpg" data-gallery-id="gallery-1"
-							data-caption="Website for Atlanta's Premiere dog salon" data-frame="snapshot-lb"><img
+							data-caption="Website for Atlanta's Premiere Dog Sitters" data-frame="snapshot-lb"><img
 								src="img/11.jpg" class="img-responsive portfolio-thumb"
-								alt="Website for Atlanta's Premiere dog salon Picture" width="313" height="313" /></a>
+								alt="Photo of a dog with it's dog sitter in the background" width="313"
+								height="313" /></a>
 						<h3 class="mg-md text-center">
 							Website for Atlanta's premiere Dog Sitters
 						</h3>
@@ -187,9 +189,9 @@
 					</div>
 					<div class="col-sm-6">
 						<a href="./img/2.jpg" data-lightbox="img/2.jpg" data-gallery-id="gallery-1"
-							data-caption="web redesign for the best cupcakes in Atlanta" data-frame="snapshot-lb"><img
+							data-caption="Web redesign for the best cupcakes in Atlanta" data-frame="snapshot-lb"><img
 								src="img/2.jpg" class="img-responsive portfolio-thumb"
-								alt="web redesign for the best cupcakes in Atlanta" width="313" height="313"></a>
+								alt="Photo of 4 cupcakes from a bakery in Atlanta" width="313" height="313"></a>
 						<h3 class="mg-md text-center">
 							Web redesign for the best Atlanta cupcakes
 						</h3>
@@ -203,7 +205,7 @@
 						<a href="./img/3.jpg" data-lightbox="img/3.jpg" data-gallery-id="gallery-1"
 							data-caption="New logo and website for Atlanta's best tech gear shop"
 							data-frame="snapshot-lb"><img src="img/3.jpg" class="img-responsive portfolio-thumb"
-								alt="New logo and website for Atlanta's best tech gear shop" width="313"
+								alt="Photo of camera components from a tech gear shop in Atlanta" width="313"
 								height="313" /></a>
 						<h3 class="mg-md text-center">
 							New logo and website for Atl + Gear - Atlanta's best tech gear shop
@@ -216,8 +218,7 @@
 						<a href="./img/4.jpg" data-lightbox="img/4.jpg" data-gallery-id="gallery-1"
 							data-caption="Atlanta's legal website generates 30% more clients after web redesign"
 							data-frame="snapshot-lb"><img src="img/4.jpg" class="img-responsive portfolio-thumb"
-								alt="Atlanta's legal website generates 30% more clients after web redesign" width="313"
-								height="313" /></a>
+								alt="Photo of a businessman on a helicopter" width="313" height="313" /></a>
 						<h3 class="mg-md text-center">
 							Atlanta's legal new website - Generating 30% more law clients with a refresh;
 						</h3>
@@ -239,7 +240,7 @@
 			id="bloc-5-cta">
 			<div class="container bloc-lg">
 				<div class="row">
-					<h2 class="mg-md text-center tc-white">
+					<h2 class="mg-md text-center tc-white position-r">
 						Ready for a great website? <br>Let's design!
 					</h2>
 					<div class="col-sm-12 text-center">
@@ -252,7 +253,7 @@
 		<!-- bloc-5-cta END -->
 
 		<!-- Footer - bloc-8 -->
-		<footer class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8">
+		<footer class="bloc bgc-dark-slate-blue d-bloc" id="bloc-8" role="contentinfo">
 			<div class="container bloc-sm">
 				<div class="row">
 					<div class="col-sm-12">

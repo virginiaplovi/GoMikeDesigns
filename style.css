@@ -95,6 +95,10 @@ a:hover {
     background-size: 280px 280px;
 }
 
+.position-r{
+    position: relative;
+}
+
 .b-parallax {
     background-attachment: fixed;
 }
@@ -284,7 +288,8 @@ a:hover {
 }
 
 #bloc-2-services p {
-    font-size: 11px;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .navbar {
@@ -681,7 +686,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -708,7 +713,7 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+h2, .t-size {
     font-size: 22px;
     line-height: 1.4em;
 }
@@ -849,6 +854,10 @@ h4 {
     background-image: url("img/atlanta%20made%20sign%20orange.jpg");
 }
 
+.link-h:hover{
+    text-decoration: underline!important;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -888,30 +897,19 @@ h4 {
     .container {
         width: 100%;
     }
-    .b-parallax {
-        background-attachment: scroll;
-    }
+    
     .page-container,
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: env(safe-area-inset-left);
-        padding-right: env(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
         width: 100%;
     }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
-        padding-left: env(safe-area-inset-left);
-        padding-right: env(safe-area-inset-right);
-    }
-}
+} 
 
 @media (max-width: 767px) {
     .page-container {
